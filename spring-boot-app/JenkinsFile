@@ -125,7 +125,7 @@ pipeline {
       environment {
         awsAccountId = '371721737434'
         region = 'us-east-1'
-        repositoryName = 'jjtech-demo'
+        repositoryName = 'pipeline-repo'
         dockerImageTag = "${BUILD_NUMBER}"
         ecrRegistry = "${awsAccountId}.dkr.ecr.${region}.amazonaws.com"
       }
